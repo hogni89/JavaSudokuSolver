@@ -3,15 +3,16 @@ package main.kotlin
 fun main() {
 
     val board = mutableListOf(
-        mutableListOf(0,8,0,6,0,5,0,3,0),
-        mutableListOf(3,0,5,0,0,4,0,9,6),
-        mutableListOf(0,0,7,2,0,3,0,8,0),
-        mutableListOf(5,0,0,3,4,6,7,0,0),
-        mutableListOf(0,0,6,8,5,0,3,0,0),
-        mutableListOf(0,0,0,0,2,7,5,6,0),
-        mutableListOf(8,6,0,0,7,0,0,5,0),
-        mutableListOf(0,0,0,0,3,0,0,2,0),
-        mutableListOf(1,0,4,0,0,0,0,7,3)
+        mutableListOf(2,0,0,5,0,7,4,0,6),
+        mutableListOf(0,0,0,0,0,1,0,0,0),
+        mutableListOf(0,0,0,0,0,0,2,3,0),
+        mutableListOf(0,0,0,0,2,0,0,0,0),
+        mutableListOf(8,6,0,3,1,0,0,0,0),
+        mutableListOf(0,4,5,0,0,0,0,0,0),
+        mutableListOf(0,0,9,0,0,0,7,0,0),
+        mutableListOf(0,0,6,9,5,0,0,0,0),
+        mutableListOf(0,0,1,0,0,6,0,0,0)
+
     )
 
     println("Starting Sudoku board:")
