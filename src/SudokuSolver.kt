@@ -2,8 +2,6 @@ package main.kotlin
 
 fun main() {
 
-    val gridSize = 9
-
     val board = listOf(
         listOf(0,8,0,6,0,5,0,3,0),
         listOf(3,0,5,0,0,4,0,9,6),
@@ -18,6 +16,36 @@ fun main() {
 
     printBoard(board)
 }
+
+fun numberLegalInRow(board: List<List<Int>>, row: Int, number: Int) : Boolean {
+    for (i in 0..8) {
+        if (board[row][i] == number)
+            return false
+    }
+    return true
+}
+
+fun numberLegalInColumn(board: List<List<Int>>, column: Int, number: Int) : Boolean {
+    for (i in 0..8) {
+        if(board[i][column] == number)
+            return false
+    }
+    return true
+}
+
+fun numberLegalInBox(board: List<List<Int>>, row: Int, column: Int, number: Int) : Boolean {
+    val boxRow = row - row % 3
+    val boxColumn = column - column % 3
+
+    for ( i in boxRow..boxRow + 2) {
+        for ( j in boxColumn..boxColumn + 2 ) {
+            if (board[i][j] == number)
+                return false
+        }
+    }
+    return true
+}
+
 
 fun printBoard(board: List<List<Int>>) {
     println("Printing Sudoku board..")
