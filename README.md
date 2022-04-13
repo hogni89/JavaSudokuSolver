@@ -10,96 +10,96 @@ My thinking is to do a spin-off project, where a user can put in an board where 
 
 Print from successfull run:
 
-Starting Sudoku board:
-200507406
-000001000
-000000230
-000020000
-860310000
-045000000
-009000700
-006950000
-001006000
+Starting Sudoku board:</br>
+200507406</br>
+000001000</br> 
+000000230</br> 
+000020000</br> 
+860310000</br> 
+045000000</br> 
+009000700</br> 
+006950000</br> 
+001006000</br> 
 
-Board solved!
-213587496
-694231578
-758469231
-937624185
-862315947
-145798623
-589143762
-376952814
-421876359
+Board solved!</br>
+213587496</br>
+694231578</br>
+758469231</br>
+937624185</br>
+862315947</br>
+145798623</br>
+589143762</br>
+376952814</br>
+421876359</br>
 
-Numbers in solution: 
-013080090
-694230578
-758469001
-937604185
-002005947
-100798623
-580143062
-370002814
-420870359
+Numbers in solution: </br>
+013080090</br>
+694230578</br>
+758469001</br>
+937604185</br>
+002005947</br>
+100798623</br>
+580143062</br>
+370002814</br>
+420870359</br>
 
-Entries in solution
-At row 1, column 2, add number 1
-At row 1, column 3, add number 3
-At row 1, column 5, add number 8
-At row 1, column 8, add number 9
-At row 2, column 1, add number 6
-At row 2, column 2, add number 9
-At row 2, column 3, add number 4
-At row 2, column 4, add number 2
-At row 2, column 5, add number 3
-At row 2, column 7, add number 5
-At row 2, column 8, add number 7
-At row 2, column 9, add number 8
-At row 3, column 1, add number 7
-At row 3, column 2, add number 5
-At row 3, column 3, add number 8
-At row 3, column 4, add number 4
-At row 3, column 5, add number 6
-At row 3, column 6, add number 9
-At row 3, column 9, add number 1
-At row 4, column 1, add number 9
-At row 4, column 2, add number 3
-At row 4, column 3, add number 7
-At row 4, column 4, add number 6
-At row 4, column 6, add number 4
-At row 4, column 7, add number 1
-At row 4, column 8, add number 8
-At row 4, column 9, add number 5
-At row 5, column 3, add number 2
-At row 5, column 6, add number 5
-At row 5, column 7, add number 9
-At row 5, column 8, add number 4
-At row 5, column 9, add number 7
-At row 6, column 1, add number 1
-At row 6, column 4, add number 7
-At row 6, column 5, add number 9
-At row 6, column 6, add number 8
-At row 6, column 7, add number 6
-At row 6, column 8, add number 2
-At row 6, column 9, add number 3
-At row 7, column 1, add number 5
-At row 7, column 2, add number 8
-At row 7, column 4, add number 1
-At row 7, column 5, add number 4
-At row 7, column 6, add number 3
-At row 7, column 8, add number 6
-At row 7, column 9, add number 2
-At row 8, column 1, add number 3
-At row 8, column 2, add number 7
-At row 8, column 6, add number 2
-At row 8, column 7, add number 8
-At row 8, column 8, add number 1
-At row 8, column 9, add number 4
-At row 9, column 1, add number 4
-At row 9, column 2, add number 2
-At row 9, column 4, add number 8
-At row 9, column 5, add number 7
-At row 9, column 7, add number 3
-At row 9, column 8, add number 5
-At row 9, column 9, add number 9
+Entries in solution</br>
+At row 1, column 2, add number 1</br>
+At row 1, column 3, add number 3</br>
+At row 1, column 5, add number 8</br>
+At row 1, column 8, add number 9</br>
+At row 2, column 1, add number 6</br>
+At row 2, column 2, add number 9</br>
+At row 2, column 3, add number 4</br>
+At row 2, column 4, add number 2</br>
+At row 2, column 5, add number 3</br>
+At row 2, column 7, add number 5</br>
+At row 2, column 8, add number 7</br>
+At row 2, column 9, add number 8</br>
+At row 3, column 1, add number 7</br>
+At row 3, column 2, add number 5</br>
+At row 3, column 3, add number 8</br>
+At row 3, column 4, add number 4</br>
+At row 3, column 5, add number 6</br>
+At row 3, column 6, add number 9</br>
+At row 3, column 9, add number 1</br>
+At row 4, column 1, add number 9</br>
+At row 4, column 2, add number 3</br>
+At row 4, column 3, add number 7</br>
+At row 4, column 4, add number 6</br>
+At row 4, column 6, add number 4</br>
+At row 4, column 7, add number 1</br>
+At row 4, column 8, add number 8</br>
+At row 4, column 9, add number 5</br>
+At row 5, column 3, add number 2</br>
+At row 5, column 6, add number 5</br>
+At row 5, column 7, add number 9</br>
+At row 5, column 8, add number 4</br>
+At row 5, column 9, add number 7</br>
+At row 6, column 1, add number 1</br>
+At row 6, column 4, add number 7</br>
+At row 6, column 5, add number 9</br>
+At row 6, column 6, add number 8</br>
+At row 6, column 7, add number 6</br>
+At row 6, column 8, add number 2</br>
+At row 6, column 9, add number 3</br>
+At row 7, column 1, add number 5</br>
+At row 7, column 2, add number 8</br>
+At row 7, column 4, add number 1</br>
+At row 7, column 5, add number 4</br>
+At row 7, column 6, add number 3</br>
+At row 7, column 8, add number 6</br>
+At row 7, column 9, add number 2</br>
+At row 8, column 1, add number 3</br>
+At row 8, column 2, add number 7</br>
+At row 8, column 6, add number 2</br>
+At row 8, column 7, add number 8</br>
+At row 8, column 8, add number 1</br>
+At row 8, column 9, add number 4</br>
+At row 9, column 1, add number 4</br>
+At row 9, column 2, add number 2</br>
+At row 9, column 4, add number 8</br>
+At row 9, column 5, add number 7</br>
+At row 9, column 7, add number 3</br>
+At row 9, column 8, add number 5</br>
+At row 9, column 9, add number 9</br>
