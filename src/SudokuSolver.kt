@@ -24,6 +24,8 @@ fun main() {
     if( solve(board) ) {
         println("Board solved!")
         printBoard(board)
+        println("Numbers in solution: ")
+        printBoard(invertBoard(staringBoard,board))
     } else {
         println("Board not solvable!")
     }
@@ -35,6 +37,20 @@ fun cloneBoard(board: MutableList<MutableList<Int>>) : MutableList<MutableList<I
         val row : MutableList<Int> = mutableListOf()
         for (j in 0 until board[i].size) {
             row.add(j,board[i][j])
+        }
+        clonedBoard.add(i,row)
+    }
+    return clonedBoard
+}
+
+fun invertBoard(board1: MutableList<MutableList<Int>>, board2: MutableList<MutableList<Int>>) : MutableList<MutableList<Int>> {
+    val clonedBoard : MutableList<MutableList<Int>> = mutableListOf()
+    for (i in 0 until board1.size) {
+        val row : MutableList<Int> = mutableListOf()
+        for (j in 0 until board1[i].size) {
+            val n = board1[i][j]
+            val m = board2[i][j]
+            row.add(j,m-n)
         }
         clonedBoard.add(i,row)
     }
