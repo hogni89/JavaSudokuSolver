@@ -1,5 +1,16 @@
 package main.kotlin
 
+data class solutionEntry(
+    val number: Int,
+    val row: Int,
+    val column: Int
+) {
+    fun print() {
+        val i = row+1
+        val j = column+1
+        println("At row $i, column $j, add number $number")
+    }
+}
 
 fun main() {
 
@@ -24,11 +35,29 @@ fun main() {
     if( solve(board) ) {
         println("Board solved!")
         printBoard(board)
+        println()
         println("Numbers in solution: ")
         printBoard(invertBoard(staringBoard,board))
+
+        println()
+        println("Entries in solution")
+        getBoardEntries(invertBoard(staringBoard,board)).map { it.print() }
+
     } else {
         println("Board not solvable!")
     }
+}
+
+fun getBoardEntries(board: MutableList<MutableList<Int>>) : List<solutionEntry> {
+    val entries : MutableList<solutionEntry> = mutableListOf()
+    for (row in 0 until board.size) {
+        for (column in 0 until board[row].size) {
+            if (board[row][column] != 0) {
+                entries.add(solutionEntry(board[row][column],row,column))
+            }
+        }
+    }
+    return entries.toList()
 }
 
 fun cloneBoard(board: MutableList<MutableList<Int>>) : MutableList<MutableList<Int>> {
