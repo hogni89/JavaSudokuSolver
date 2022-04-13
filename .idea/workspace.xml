@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf5cf86-a712-4ec1-ba29-c9afe867dd71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SudokuSolver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649800358810</updated>
       <workItem from="1649800360680" duration="3982000" />
+      <workItem from="1649833025959" duration="1024000" />
+      <workItem from="1649838339981" duration="1446000" />
     </task>
     <servers />
   </component>

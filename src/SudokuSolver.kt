@@ -1,5 +1,6 @@
 package main.kotlin
 
+
 fun main() {
 
     val board = mutableListOf(
@@ -12,8 +13,9 @@ fun main() {
         mutableListOf(0,0,9,0,0,0,7,0,0),
         mutableListOf(0,0,6,9,5,0,0,0,0),
         mutableListOf(0,0,1,0,0,6,0,0,0)
-
     )
+
+    val staringBoard = cloneBoard(board)
 
     println("Starting Sudoku board:")
     printBoard(board)
@@ -25,7 +27,18 @@ fun main() {
     } else {
         println("Board not solvable!")
     }
+}
 
+fun cloneBoard(board: MutableList<MutableList<Int>>) : MutableList<MutableList<Int>> {
+    val clonedBoard : MutableList<MutableList<Int>> = mutableListOf()
+    for (i in 0 until board.size) {
+        val row : MutableList<Int> = mutableListOf()
+        for (j in 0 until board[i].size) {
+            row.add(j,board[i][j])
+        }
+        clonedBoard.add(i,row)
+    }
+    return clonedBoard
 }
 
 fun solve(board: MutableList<MutableList<Int>>) : Boolean {
